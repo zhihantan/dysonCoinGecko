@@ -1,4 +1,4 @@
-# dysonCoinGecko
+# Dyson Coin Gecko
 Dyson Take Home Assessment (Coin Gecko Crypto)
 # CryptoDataAnalyzer
 
@@ -6,12 +6,16 @@ CryptoDataAnalyzer is a simple Python tool designed to fetch and analyze cryptoc
 
 ## How to Use
 
-1. Install the required package: pip install pycoingecko
+1. Install the required package:
+```python
+pip install pycoingecko
+```
 2. Import the CryptoDataAnalyzer class into your Python script or Jupyter notebook:
 
 ```python
 from CryptoDataAnalyzer import CryptoDataAnalyzer
-
-Create an instance of the CryptoDataAnalyzer class:
+```
+3. Create an instance of the CryptoDataAnalyzer class:
+```python
 crypto_analyzer = CryptoDataAnalyzer()
-
+```
