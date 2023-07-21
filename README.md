@@ -10,7 +10,7 @@ CryptoDataAnalyzer is a simple Python tool designed to fetch and analyze cryptoc
 ```python
 pip install pycoingecko
 ```
-2. Import the CryptoDataAnalyzer class into your Python script or Jupyter notebook:
+2. Import the CryptoDataAnalyzer class into your Python Script or Jupyter Notebook:
 
 ```python
 from CryptoDataAnalyzer import CryptoDataAnalyzer
@@ -19,7 +19,7 @@ from CryptoDataAnalyzer import CryptoDataAnalyzer
 ```python
 crypto_analyzer = CryptoDataAnalyzer()
 ```
-4. Fetch data for the desired cryptocurrencies and timeframes:
+4. Fetch data for the desired cryptocurrencies and timeframes (xxx = Cryptocurrency name):
 ```python
 dataframe_xxx = crypto_analyzer.get_crypto_data('xxx', start_date, end_date)
 ```
@@ -35,4 +35,4 @@ crypto_analyzer.generate_line_plot_market_cap(dataframes, timeframe)
 crypto_analyzer.generate_line_plot_total_volume(dataframes, timeframe)
 ```
 
-For additional details and usage examples, please refer to the Jupyter notebook provided in the repository.
+For additional details and usage examples, please refer to the Jupyter notebook titled CryptoDataAnalyzerUsage provided in the repository.
