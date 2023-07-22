@@ -13,6 +13,7 @@ pip install pycoingecko
 2. Import the CryptoDataAnalyzer class into your Python Script or Jupyter Notebook:
 
 ```python
+import CryptoDataAnalyzer
 from CryptoDataAnalyzer import CryptoDataAnalyzer
 ```
 3. Create an instance of the CryptoDataAnalyzer class:
