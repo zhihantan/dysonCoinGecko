@@ -37,3 +37,8 @@ crypto_analyzer.generate_line_plot_total_volume(dataframes, timeframe)
 ```
 
 For additional details and usage examples, please refer to the Jupyter notebook titled CryptoDataAnalyzerUsage provided in the repository.
+
+## Pytest
+Pytest is done in the **test_crypto_data_analyzer.ipynb** file.
+
+Users can simply run the notebook to check if the test results are positive.
